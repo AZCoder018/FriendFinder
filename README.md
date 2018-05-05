@@ -1,4 +1,4 @@
-#### SUPERFRIEND FINDER
+### SUPERFRIEND FINDER
 
 #### __WHAT DOES THIS APP DO?__
 
@@ -16,45 +16,23 @@ You have two (2) options for using this application:
 
   - Open GitBash or Terminal, making sure that you are in the file location of Friend Finder, and run command 'npm install', to complete installation (all necessary apis from npm.js will be downloaded and installed). 
 
-  - Type 'node server.js' on the command line and press enter. The "App is now listening on PORT:3000". 
+  - Type 'node server.js' on the command line and press enter. The following should be returned: "App is now listening on PORT:3000"; and
+
+  - Open your default browserand type the following in the address bar: localhost:3000. The home page for SuperFriend Finder should appear.
 
 #### __HOW DOES SUPERFRIEND FINDER WORK?__
 
-* Use GitBash or Terminal to navigate to the file location of the Liri-Node-App. You can then enter on the command line 'node liri.js', plus one of four possible commands - (i) my-tweets; (ii) spotify-this-song; (iii) movie-this; or (iv) do-what-it-says - as follows:
+1. From the home page, click on the button "Go to Survey", which will take you to the Survey page.
 
-  * node liri.js my-tweets
-    - 20 last tweets from Twitter user __MissULucy550__ will be retured
+2. On the survey page, enter your name, a link to your photo, and complete the survey of 10 questions.
 
-  * node liri.js spotify-this-song < song title >
-    - The following information from Spotify will be returned: 
-        - Artist name
-        - Song title
-        - Preview link to song from Spotify
-        - Name of the album that the song is from
+3. Once you are done with the survey, click the button "Submit". A modal will then appear, with the name and photo of the SuperFriend with whom you are the closest match, based on your survey answers.
 
-    __Note that if no song title is provided, information regarding the song "The Sign", by the artist, Ace of Base, will be returned by default.__
+* If you clink on "API Friends List", the link for which is found on both the Home Page and the Survey Page, you will be directed to a list of the SuperFriends currently in the database, including links to photos of those SuperFriends and their answers to the survey questions.
 
-  * node liri.js movie-this < movie name >
-    - The following information from OMDB will be returned: 
-        - Title of the movie
-        - Year the movie came out
-        - IMDB Rating of the movie
-        - Rotten Tomatoes Rating of the movie
-        - Country where the movie was produced
-        - Language of the movie
-        - Plot of the movie
-        - Actors in the movie
-    
-    __Note that if no movie title is provided, informatio regarding the movie "Mr. Nobody" will be returned by default.__
-
-  * node liri.js do-what-it-says
-    - LIRI will take the text inside of the random.txt filed included in the root directory and then use it to call one of LIRI's commands.
-        - It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
-     
-     __Note that users are free to change the text in the 'random.txt' document to test out the feature for other commands.__
+* If you click on "GitHub Repo", the link for which is found on both the Home Page and the Survey Page, you will be directed to the GitHub Repository for SuperFriend Finder. 
 
 #### __WHO MAINTAINS AND CONTRIBUTES TO THIS VERSION OF FRIEND FINDER?__
 
-This version of Friend Finder was created by me, Jason Heath Meadows, Esq., currently a student at the University of Arizona Coding Boot Camp, in Gilbert, Arizona. I will maintain and contribute to this app, as necessary, as part of my Portfolio.
+This version of SuperFriend Finder was created by me, Jason Heath Meadows, Esq., currently a student at the University of Arizona Coding Boot Camp, in Gilbert, Arizona. I will maintain and contribute to this app, as necessary, as part of my Portfolio.
 
-#### __HOW DO YOU GET STARTED?__
