@@ -12,13 +12,13 @@ You have two (2) options for using this application:
 
 2. Make sure that you have node.js installed on your computer, then:
 
-  - Clone or download the repository for Friend Finder;
+    - Clone or download the repository for Friend Finder;
 
-  - Open GitBash or Terminal, making sure that you are in the file location of Friend Finder, and run command 'npm install', to complete installation (all necessary apis from npm.js will be downloaded and installed). 
+    - Open GitBash or Terminal, making sure that you are in the file location of Friend Finder, and run command 'npm install', to complete installation (all necessary apis from npm.js will be downloaded and installed). 
 
-  - Type 'node server.js' on the command line and press enter. The following should be returned: "App is now listening on PORT:3000"; and
+    - Type 'node server.js' on the command line and press enter. The following should be returned: "App is now listening on PORT:3000"; and
 
-  - Open your default browserand type the following in the address bar: localhost:3000. The home page for SuperFriend Finder should appear.
+    - Open your default browserand type the following in the address bar: localhost:3000. The home page for SuperFriend Finder should appear.
 
 #### __HOW DOES SUPERFRIEND FINDER WORK?__
 
@@ -28,9 +28,9 @@ You have two (2) options for using this application:
 
 3. Once you are done with the survey, click the button "Submit". A modal will then appear, with the name and photo of the SuperFriend with whom you are the closest match, based on your survey answers.
 
-* If you clink on "API Friends List", the link for which is found on both the Home Page and the Survey Page, you will be directed to a list of the SuperFriends currently in the database, including links to photos of those SuperFriends and their answers to the survey questions.
+  __If you clink on "API Friends List", the link for which is found on both the Home Page and the Survey Page, you will be directed to a list of the SuperFriends currently in the database, including links to photos of those SuperFriends and their answers to the survey questions.__
 
-* If you click on "GitHub Repo", the link for which is found on both the Home Page and the Survey Page, you will be directed to the GitHub Repository for SuperFriend Finder. 
+  __If you click on "GitHub Repo", the link for which is found on both the Home Page and the Survey Page, you will be directed to the GitHub Repository for SuperFriend Finder.__ 
 
 #### __WHO MAINTAINS AND CONTRIBUTES TO THIS VERSION OF FRIEND FINDER?__
 
