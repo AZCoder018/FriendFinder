@@ -1,8 +1,8 @@
-### SUPERFRIEND FINDER
+### SUPERF FRIENDS FINDER
 
 #### __WHAT DOES THIS APP DO?__
 
-SuperFriend Finder is a full-stack website application that takes in results from a user's survey and then compares those user's survey answers with previous answers from other users. After the user completes the survey, the application will display the name and picture of a previous user with the best overall match.
+Super Friends Finder is a full-stack website application that takes in results from a user's survey and then compares those user's survey answers with previous answers from other users. After the user completes the survey, the application will display the name and picture of a previous user with the best overall match.
 
 #### __HOW DO YOU GET STARTED?__
 
@@ -12,15 +12,15 @@ You have two (2) options for using this application:
 
 2. Make sure that you have node.js installed on your computer, then:
 
-    - Clone or download the repository for Friend Finder;
+    - Clone or download the repository for Super Friends Finder;
 
-    - Open GitBash or Terminal, making sure that you are in the file location of Friend Finder, and run command 'npm install', to complete installation (all necessary apis from npm.js will be downloaded and installed). 
+    - Open GitBash or Terminal, making sure that you are in the file location of Super Friend Finder, and run command 'npm install', to complete installation (all necessary apis from npm.js will be downloaded and installed). 
 
     - Type 'node server.js' on the command line and press enter. The following should be returned: "App is now listening on PORT:3000"; and
 
-    - Open your default browserand type the following in the address bar: localhost:3000. The home page for SuperFriend Finder should appear.
+    - Open your default browserand type the following in the address bar: localhost:3000. The home page for Super Friends Finder should appear.
 
-#### __HOW DOES SUPERFRIEND FINDER WORK?__
+#### __HOW DOES SUPER FRIENDS FINDER WORK?__
 
 1. From the home page, click on the button "Go to Survey", which will take you to the Survey page.
 
@@ -34,5 +34,5 @@ You have two (2) options for using this application:
 
 #### __WHO MAINTAINS AND CONTRIBUTES TO THIS VERSION OF FRIEND FINDER?__
 
-This version of SuperFriend Finder was created by me, Jason Heath Meadows, Esq., currently a student at the University of Arizona Coding Boot Camp, in Gilbert, Arizona. I will maintain and contribute to this app, as necessary, as part of my Portfolio.
+This version of Super Friends Finder was created by me, Jason Heath Meadows, Esq., currently a student at the University of Arizona Coding Boot Camp, in Gilbert, Arizona. I will maintain and contribute to this app, as necessary, as part of my Portfolio.
 
