@@ -1,28 +1,31 @@
-// //Routes to be exported to other pages , test here first 
-// //HTML
-// //may want to add the other default (without the user enterign / from Saturday)
-// //send the user to the home page
+// ===============================================================================
+// DEPENDENCIES
+// We need to include the path package to get the correct file path for our html
+// ===============================================================================
 var path = require('path');
+
+
+
+
+
+// ===============================================================================
+// ROUTING
+// ===============================================================================
+
 module.exports = function(app){
 
-	//default to home page if nothing entered 
-	app.get('/', function(req, res){
-		res.sendFile(path.join(__dirname + '/../public/home.html'));
-	});
+	// HTML GET Requests
+	// Below code handles when users "visit" a page. 
+	// In each of the below cases the user is shown an HTML page of content
+	// ---------------------------------------------------------------------------
 
-	//routes the user to the home page if they enter home
-	app.get('/home', function(Req, res){
-		res.sendFile(path.join(__dirname + '/../public/home.html'));
-	});
-
-	//sets the defualt page to the home page in general
-	// app.use(function(req, res){
-	// 	res.sendFile(path.join(__dirname + '/../public/home.html'));
-	// });
-
-	//get the info from the friend survey form 
 	app.get('/survey', function(req, res){
 		res.sendFile(path.join(__dirname + '/../public/survey.html'));
+	});
+
+	// If no matching route is found default to home
+	app.use(function(req, res){
+		res.sendFile(path.join(__dirname + '/../public/home.html'));
 	});
 
 }

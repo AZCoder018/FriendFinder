@@ -2,7 +2,7 @@
 
 #### __WHAT DOES THIS APP DO?__
 
-Liri-Node-App is a _Language_ Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data. This current configuration of Liri-Node-App takes in specific, limited comands and displays, depending on the command,the last 20 tweets of Twitter user __MissULucy550__; information from Spotifiy about any particular song requested by the app user; information from the Open Movie Database API (OMDB) about a particular movie requesed by the app user; or random information from a .txt file, which, by default, provides information from Spotify about the song, "I Want It That Way", by the Backstreet Boys. 
+Friend Finder is a full-stack website application that takes in results from a user's survey and then compares those user's survey answers with previous answers from other users. After the user completes the survey, the application will display the name and picture of a previous user with the best overall match.
 
 #### __HOW DO YOU GET STARTED?__
 
@@ -67,14 +67,9 @@ Liri-Node-App is a _Language_ Interpretation and Recognition Interface. LIRI is 
      
      __Note that users are free to change the text in the 'random.txt' document to test out the feature for other commands.__
 
-#### __WHO MAINTAINS AND CONTRIBUTES TO THIS VERSION OF LIRI-NODE-APP?__
+#### __WHO MAINTAINS AND CONTRIBUTES TO THIS VERSION OF FRIEND FINDER?__
 
-This version of Liri-Node-App was created by me, Jason Heath Meadows, Esq., currently a student at the University of Arizona Coding Boot Camp, in Gilbert, Arizona. I will maintain and contribute to this app, as necessary, as part of my Portfolio.
-#### WordGuess-CLI
-
-#### __WHAT DOES THIS APP DO?__
-
-WordGuess-CLI is a command line node game app that is similar to hangman. This current configuration of WordGuess-CLI involves world capitals. The app randomly choses a world capital from a word bank of 30 world capitals and then displays on the command line the redacted world capital, with each letter of the world capital represented by a blank underscore. For example, if the app randomly choses 'Zurich' as a world capital, 'Zurich' will appear as '_ _ _ _ _ _' on the command line. The user must then guess each of the missing letters contained within the randomly chosen world capital. If the player guesses a correct letter, that letter will appear in place of the appropriate underscore on the command line. If the randomly chosen capital is 'Zurich', and the user correctly guesses 'Z',  the letter 'Z' will appear as 'Z _ _ _ _' on the command line. If the player makes 12 incorrect guesses, the player loses the game. 
+This version of Friend Finder was created by me, Jason Heath Meadows, Esq., currently a student at the University of Arizona Coding Boot Camp, in Gilbert, Arizona. I will maintain and contribute to this app, as necessary, as part of my Portfolio.
 
 #### __HOW DO YOU GET STARTED?__
 
@@ -99,6 +94,3 @@ WordGuess-CLI is a command line node game app that is similar to hangman. This c
 
 * Regardless of whether the user wins or loses, the user will be asked is the user wants to play again. If the user answers Y, the game resets and a new random word is chosen by the computer. If the user answers N, the user will receive the message "BYE! BYE!".
 
-#### __WHO MAINTAINS AND CONTRIBUTES TO THIS VERSION OF WordGuess-CLI?__
-
-This version of WordGuess-CLI was created by me, Jason Heath Meadows, Esq., currently a student at the University of Arizona Coding Boot Camp, in Gilbert, Arizona. I will maintain and contribute to this app, as necessary, as part of my Portfolio.
