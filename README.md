@@ -8,7 +8,7 @@ SuperFriend Finder is a full-stack website application that takes in results fro
 
 You have two (2) options for using this application:
 
-1. Click on the following link to where the application is hosted on Heroku: ; or
+1. Click on the following link to where the application is hosted on Heroku: https://protected-plains-60194.herokuapp.com ; or
 
 2. Make sure that you have node.js installed on your computer, then:
 
