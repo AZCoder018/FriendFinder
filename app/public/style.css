@@ -43,10 +43,16 @@
     padding-bottom: 0px;
 }
   
-  body {
+ body {
       background: url("hoj(2).png") no-repeat center center fixed;
       background-size: cover;
-    }
+}
+
+#b_survey {
+
+    background: url("super_friends.jpg") no-repeat center center fixed;
+
+}
 
 #s_button {
     align-content: center;
