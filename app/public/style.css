@@ -1,0 +1,8 @@
+.jumbotron {
+    background-color: transparent;
+  }
+  
+  body {
+      background: url("hoj(2).png") no-repeat center center fixed;
+      background-size: cover;
+    }
