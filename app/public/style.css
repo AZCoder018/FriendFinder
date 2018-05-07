@@ -70,3 +70,10 @@
     font-style: bold;
     text-shadow: .25px .25px .25px black;
 }
+
+#form {
+background-color: white;
+font-weight: 800px;
+width:45%;
+opacity: 0.975;
+}
